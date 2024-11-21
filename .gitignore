@@ -97,7 +97,7 @@ dist
 
 # Serverless directories
 .serverless/
-
+.node_modules
 # FuseBox cache
 .fusebox/
 
