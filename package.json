@@ -1,11 +1,12 @@
 {
   "name": "nikbackend",
   "version": "1.0.0",
-  "description": "a basic app",
+  "description": "a backend with basic youtube channel",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+    
   },
   "keywords": [
     "node",
@@ -15,6 +16,10 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "nodemo": "^1.0.0"
   }
 }
